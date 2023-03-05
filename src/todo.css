@@ -1,0 +1,18 @@
+.red::placeholder {
+    color: red;
+    opacity: .8;
+}
+
+.deleteicon {
+    display: none;
+}
+
+.accordion-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.accordion-button:hover .fa-solid {
+    display: block;
+}
